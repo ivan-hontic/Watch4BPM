@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context="hr.foi.hontic.ivan.watch4bpm.StatisticActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txtView"
+        android:scrollbars="none"
+
+
+        app:layout_box="right|left">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_box="all">
+
+
+            <TextView
+                android:id="@+id/txtMax1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:paddingTop="15dp"
+                android:text="@string/maxHeartbeat"
+                android:textAlignment="center"
+                android:textColor="@color/button"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/txtMax2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtMax1"
+
+                android:text="--"
+                android:textAlignment="center"
+                android:textColor="@color/button"
+                android:textSize="60dp" />
+            <TextView
+                android:id="@+id/txtMax3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtMax2"
+                android:paddingBottom="20dp"
+                android:text="--"
+                android:textAlignment="center"
+                android:textColor="@color/divider"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/txtMin1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtMax3"
+                android:paddingTop="20dp"
+                android:text="@string/minHeartbeat"
+                android:textAlignment="center"
+                android:textColor="@color/button"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/txtMin2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtMin1"
+
+                android:text="--"
+                android:textAlignment="center"
+                android:textColor="@color/button"
+                android:textSize="60dp" />
+            <TextView
+                android:id="@+id/txtMin3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtMin2"
+                android:paddingBottom="20dp"
+                android:text="--"
+                android:textAlignment="center"
+                android:textColor="@color/divider"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/txtAvg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtMin3"
+                android:paddingTop="20dp"
+                android:text="@string/avgHeartbeat"
+                android:textAlignment="center"
+                android:textColor="@color/button"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/txtAvg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtAvg1"
+                android:paddingBottom="20dp"
+                android:text="--"
+                android:textAlignment="center"
+                android:textColor="@color/button"
+                android:textSize="60dp" />
+            <TextView
+                android:id="@+id/txtLast1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtAvg2"
+                android:paddingTop="20dp"
+                android:text="@string/lastHeartbeat"
+                android:textAlignment="center"
+                android:textColor="@color/button"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/txtLast2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtLast1"
+
+                android:text="--"
+                android:textAlignment="center"
+                android:textColor="@color/button"
+                android:textSize="60dp" />
+            <TextView
+                android:id="@+id/txtLast3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtLast2"
+                android:paddingBottom="20dp"
+                android:text="--"
+                android:textAlignment="center"
+                android:textColor="@color/divider"
+                android:textSize="15dp" />
+
+
+            <Button
+                android:id="@+id/openOnPhone"
+                android:layout_width="130dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/txtLast3"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_corners"
+                android:onClick="openStatsOnPhone"
+                android:text="@string/openStatisticsOnPhoneButton"
+                android:textColor="@color/primary_text" />
+
+            <Button
+                android:id="@+id/deleteRecordedData"
+                android:layout_width="130dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/openOnPhone"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_corners"
+                android:onClick="deleteRecordedData"
+                android:text="@string/deleteDataButton"
+                android:textColor="@color/primary_text" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

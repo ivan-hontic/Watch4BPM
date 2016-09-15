@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Watch4BPM</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+
+
+    <string name="measureNowButton">Izmjeri puls</string>
+    <string name="measurementServiceButtonStart">Uključi praćenje pulsa</string>
+    <string name="measurementServiceButtonStop">Isključi praćenje pulsa</string>
+    <string name="toastMeasuringServiceStart">Praćenje pulsa uključeno!</string>
+    <string name="toastMeasuringServiceStop">Praćenje pulsa isključeno!</string>
+    <string name="statisticButton">Statistika</string>
+    <string name="maxHeartbeat">Najveći puls</string>
+    <string name="minHeartbeat">Najmanji puls</string>
+    <string name="avgHeartbeat">Prosječni puls</string>
+    <string name="lastHeartbeat">Posljednje mjerenje</string>
+    <string name="openStatisticsOnPhoneButton">Otvori statistiku na telefonu</string>
+    <string name="stoppedMeasurement">Mjerenje pulsa zaustavljeno na satu</string>
+
+    <string name="openWearAppButton">Pokreni aplikaciju na pametnom satu</string>
+    <string name="exitAppButton">Izlaz</string>
+    <string name="fetchNewData">Ažuriraj podatke</string>
+    <string name="buttonSettings">Postavke</string>
+    <string name="chooseLang">Odaberi jezik: </string>
+</resources>

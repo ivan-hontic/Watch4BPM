@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Watch4BPM</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+
+    <string name="measureNowButton">Measure puls</string>
+    <string name="measurementServiceButtonStart">Start measurement service</string>
+    <string name="measurementServiceButtonStop">Stop measurement service</string>
+    <string name="toastMeasuringServiceStart">Measuring service started!</string>
+    <string name="toastMeasuringServiceStop">Measuring service stopped!</string>
+    <string name="statisticButton">Statistic</string>
+    <string name="maxHeartbeat">Max heart rate</string>
+    <string name="minHeartbeat">Min heart rate</string>
+    <string name="avgHeartbeat">Average heart rate</string>
+    <string name="lastHeartbeat">Last measurement</string>
+    <string name="openStatisticsOnPhoneButton">Open statistics on phone</string>
+    <string name="stoppedMeasurement">Heart beat measurement stopped on phone</string>
+
+    <string name="openPhoneAppButton">Open phone app</string>
+    <string name="buttonSettings">Settings</string>
+    <string name="chooseLang">Choose language: </string>
+
+    <string name="aboutButtonText">About</string>
+    <string name="author">Author: Ivan Hontić</string>
+    <string name="supervisor">Supervisor: Zlatko Stapić, Ph.D.</string>
+    <string name="contactInfo">Contact info: ivan.hontic@gmail.com</string>
+    <string name="about_text">This application is only for informational purposes and in no event will author be liable for any incidental, indirect, consequential or any other damages whatsoever arising out of the use of this product.</string>
+    <string name="deleteDataButton">Delete recorded data</string>
+</resources>

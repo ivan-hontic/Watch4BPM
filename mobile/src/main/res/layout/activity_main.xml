@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:padding="20dp"
+    tools:context="hr.foi.hontic.ivan.watch4bpm.MainActivity">
+    
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_marginTop="-15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bpm_icon"
+        />
+
+    <Button
+        android:id="@+id/btnMeasureNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgLogo"
+        android:layout_marginTop="-10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+
+        android:background="@drawable/button_corners"
+        android:onClick="startMeasureNow"
+
+        android:text="@string/measureNowButton"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/btnStatistic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnMeasureNow"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/button_corners"
+        android:onClick="startStatisticActivity"
+
+        android:text="@string/statisticButton"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/openWearApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnStatistic"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/button_corners"
+        android:onClick="openWearApp"
+
+        android:text="@string/openWearAppButton"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/openWearApp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/button_corners"
+        android:onClick="openSettings"
+
+        android:text="@string/buttonSettings"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settingsButton"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/button_corners"
+        android:onClick="exitApp"
+        android:text="@string/exitAppButton"
+        android:textSize="17dp" />
+
+
+</RelativeLayout>

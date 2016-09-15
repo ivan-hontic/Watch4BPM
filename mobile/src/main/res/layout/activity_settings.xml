@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:padding="20dp"
+    tools:context="hr.foi.hontic.ivan.watch4bpm.SettingsActivity">
+
+    <TextView
+        android:id="@+id/textTitleAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:text="@string/chooseLang"
+        android:textColor="@color/primary_text"
+        android:layout_marginBottom="20dp"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/hrLang"
+        android:layout_width="300px"
+        android:layout_height="180px"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textTitleAbout"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/hr_icon"
+        android:layout_marginBottom="25dp"
+        android:onClick="setCroatian"/>
+
+    <ImageView
+        android:id="@+id/engLang"
+        android:layout_width="280px"
+        android:layout_height="180px"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/hrLang"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/eng_icon"
+        android:layout_marginBottom="25dp"
+        android:onClick="setEnglish"/>
+
+</RelativeLayout>

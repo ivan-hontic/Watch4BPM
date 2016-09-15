@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Watch4BPM</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+
+
+    <string name="measureNowButton">Izmjeri puls</string>
+    <string name="measurementServiceButtonStart">Uključi praćenje pulsa</string>
+    <string name="measurementServiceButtonStop">Isključi praćenje pulsa</string>
+    <string name="toastMeasuringServiceStart">Praćenje pulsa uključeno!</string>
+    <string name="toastMeasuringServiceStop">Praćenje pulsa isključeno!</string>
+    <string name="statisticButton">Statistika</string>
+    <string name="maxHeartbeat">Najveći puls</string>
+    <string name="minHeartbeat">Najmanji puls</string>
+    <string name="avgHeartbeat">Prosječni puls</string>
+    <string name="lastHeartbeat">Posljednje mjerenje</string>
+    <string name="openStatisticsOnPhoneButton">Otvori statistiku na telefonu</string>
+    <string name="stoppedMeasurement">Mjerenje pulsa zaustavljeno na telefonu</string>
+
+    <string name="openPhoneAppButton">Otvori aplikaciju na mobitelu</string>
+    <string name="buttonSettings">Postavke</string>
+    <string name="chooseLang">Odaberi jezik: </string>
+
+    <string name="aboutButtonText">O aplikaciji</string>
+    <string name="author">Autor: Ivan Hontić</string>
+    <string name="supervisor">Mentor: Zlatko Stapić, Ph.D.</string>
+    <string name="contactInfo">Kontakt info: ivan.hontic@gmail.com</string>
+    <string name="about_text">Ova aplikacija je namjenjena samo za informativne svrhe i ni u kojem slučaju će autor biti odgovoran za ikakav incident ili štetu kojeg bi korištenje ove aplikacije moglo prouzročiti.</string>
+    <string name="deleteDataButton">Obriši snimljena mjerenja</string>
+</resources>
